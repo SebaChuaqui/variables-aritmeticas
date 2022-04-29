@@ -1,10 +1,9 @@
-
-// Se declaran variables para que ingrese el usuario
+// Variables a ingresar por Usuario
 
 var num1 = prompt("Ingrese dos números diferentes y mayores a cero");
 var num2 = prompt("Ingrese dos números diferentes y mayores a cero");
 
-//condición
+//Condición
 
 if (num1 == num2) {
     alert("Los números deben ser distintos")
@@ -13,6 +12,8 @@ if (num1 == num2) {
 
 else {
 
+    // Print en HTML
+    
     document.write("La suma es: ");
     document.write(parseInt(num1) + parseInt(num2));
     document.write("<br/>");
