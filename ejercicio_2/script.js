@@ -9,6 +9,15 @@ if (num1 == num2) {
     alert("Los números deben ser distintos")
     document.write("CARGAR DE NUEVO LA PAGINA")
 }
+else if (num1<=0){
+    alert("El primer numero ingresado es menor que 0")
+    document.write("CARGAR DE NUEVO LA PAGINA")
+}
+
+else if (num2<=0){
+    alert("El segundo numero ingresado es menor que 0")
+    document.write("CARGAR DE NUEVO LA PAGINA")
+}
 
 else {
 
